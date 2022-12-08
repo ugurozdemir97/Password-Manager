@@ -28,6 +28,7 @@ class Screen(object):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(887, 676)
         MainWindow.setFixedSize(887, 676)
+        MainWindow.setWindowIcon(QtGui.QIcon('lock.png'))
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.stackedWidget = QtWidgets.QStackedWidget(self.centralwidget)
